@@ -6,7 +6,7 @@ from luma.core.interface.serial import spi, noop
 from luma.core.render import canvas
 from luma.led_matrix.device import max7219
 from luma.core.legacy import text, show_message
-from luma.core.legacy.font import proportional, LCD_FONT, CP437_FONT, SINCLAIR_FONT, TINY_FONT
+from luma.core.legacy.font import proportional #, LCD_FONT, CP437_FONT, SINCLAIR_FONT, TINY_FONT
 from luma.core import legacy
 
 
@@ -24,5 +24,5 @@ while True:
 	aff = hour + ":" + minutes
 
 	with canvas(device) as draw:
-		legacy.text(draw, (1, 1), aff, fill="white", font=proportional(TEST_FONT))
+		legacy.text(draw, (1, 1), aff, fill="white", font=proportional(Font.BIGFONT))
 

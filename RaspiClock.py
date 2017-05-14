@@ -1,6 +1,6 @@
 import time
 
-using Font.py
+import Font
 
 from luma.core.interface.serial import spi, noop
 from luma.core.render import canvas

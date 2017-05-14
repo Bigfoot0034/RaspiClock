@@ -1,1 +1,3 @@
 # RaspiClock
+
+Hey ! I'm new...

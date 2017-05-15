@@ -49,7 +49,11 @@ Source & more instruction : http://www.rototron.info/dht22-tutorial-for-raspberr
 
 
 ## RaspiClock
+https://github.com/Bigfoot0034/RaspiClock
 
+```
+git clone https://github.com/Bigfoot0034/RaspiClock
+```
 
 ## Sources
 http://raspi.tv/2013/how-to-use-interrupts-with-python-on-the-raspberry-pi-and-rpi-gpio-part-2
